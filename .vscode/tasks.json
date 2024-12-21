@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "pypre-exec",
+            "command": "${workspaceFolder}/powershell/py_pre.ps1"
+        },
+        {
+            "type": "shell",
+            "label": "pypost-exec",
+            "command": "${workspaceFolder}/powershell/py_post.ps1"
+        }
+    ]
+}

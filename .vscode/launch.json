@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "configurations": [
+        {
+            "name": "Run Python package via build.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/python/build.py",
+            "preLaunchTask": "pypre-exec",
+            "postDebugTask": "pypost-exec",
+            "console": "integratedTerminal"
+        },
+    ]
+}
